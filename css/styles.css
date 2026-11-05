@@ -805,35 +805,53 @@ strong {
   max-width: 720px;
 }
 
-/* Infinite Marquee / Carousel */
+/* Infinite Double Marquee / Diagonal Carousel */
 .ecosystem__carousel-wrapper {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding: 2.5rem 0;
-  /* Fade out edges */
-  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  /* Soft fade on edges */
+  mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
 }
 
 .ecosystem__track {
   display: flex;
   width: max-content;
-  gap: 5.5rem;
-  animation: logoMarquee 32s linear infinite;
+  gap: 5rem;
+  animation: logoMarqueeTop 38s linear infinite;
   align-items: center;
+}
+
+.ecosystem__track--bottom {
+  animation: logoMarqueeBottom 42s linear infinite;
+  /* Offset by default so they naturally stagger diagonally */
+  margin-left: -3rem;
 }
 
 .ecosystem__track:hover {
   animation-play-state: paused;
 }
 
-@keyframes logoMarquee {
+@keyframes logoMarqueeTop {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-50% - 2.75rem));
+    transform: translateX(calc(-50% - 2.5rem));
+  }
+}
+
+@keyframes logoMarqueeBottom {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 2.5rem));
   }
 }
 
@@ -842,21 +860,21 @@ strong {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  height: 90px;
-  min-width: 180px;
-  opacity: 0.85;
+  height: 75px;
+  min-width: 170px;
+  opacity: 0.88;
   transition: opacity var(--transition), transform var(--transition);
 }
 
 .brand-item:hover {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.12);
 }
 
 .brand-item img {
-  height: 62px;
+  height: 54px;
   width: auto;
-  max-width: 250px;
+  max-width: 230px;
   object-fit: contain;
   /* Crisp clean white monochrome */
   filter: brightness(0) invert(1);
@@ -865,19 +883,19 @@ strong {
 
 @media (max-width: 768px) {
   .ecosystem__carousel-wrapper {
-    padding: 1.5rem 0;
+    gap: 1.2rem;
+    padding: 1rem 0;
   }
   .ecosystem__track {
-    gap: 3.5rem;
-    animation-duration: 22s;
+    gap: 3rem;
   }
   .brand-item {
-    height: 65px;
-    min-width: 140px;
+    height: 55px;
+    min-width: 120px;
   }
   .brand-item img {
-    height: 44px;
-    max-width: 170px;
+    height: 38px;
+    max-width: 150px;
   }
 }
 

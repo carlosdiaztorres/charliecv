@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12 25L4 21L12 17L16 9L20 17L28 21L20 25L16 33L12 25Z" fill="currentColor"/>
+  <text x="36" y="32" fill="currentColor" font-family="'Outfit', sans-serif" font-weight="700" font-size="20" letter-spacing="1">KYIVSTAR</text>
+  <rect x="144" y="16" width="36" height="18" rx="3" stroke="currentColor" stroke-width="2"/>
+  <text x="150" y="30" fill="currentColor" font-family="'Outfit', sans-serif" font-weight="800" font-size="12">TV</text>
+</svg>

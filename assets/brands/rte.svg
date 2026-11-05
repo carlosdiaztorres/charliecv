@@ -1,0 +1,6 @@
+<svg viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 38V12H24C30 12 34 15 34 20C34 24 31 27 26 28L36 38H28L19 28H16V38H10ZM16 23H23C26 23 28 22 28 20C28 17 26 16 23 16H16V23Z" fill="currentColor"/>
+  <path d="M38 17V12H62V17H53V38H47V17H38Z" fill="currentColor"/>
+  <path d="M68 38V12H92V17H74V22H88V27H74V33H93V38H68Z" fill="currentColor"/>
+  <polygon points="84,6 89,6 83,11 78,11" fill="currentColor"/>
+</svg>

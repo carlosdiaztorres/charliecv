@@ -1,0 +1,6 @@
+<svg viewBox="0 0 210 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="18" cy="25" r="14" stroke="currentColor" stroke-width="4"/>
+  <circle cx="18" cy="25" r="5" fill="currentColor"/>
+  <text x="40" y="24" fill="currentColor" font-family="'Outfit', sans-serif" font-weight="700" font-size="16" letter-spacing="2">RADIO</text>
+  <text x="40" y="40" fill="currentColor" font-family="'Outfit', sans-serif" font-weight="400" font-size="14" letter-spacing="3">CLASSIQUE</text>
+</svg>

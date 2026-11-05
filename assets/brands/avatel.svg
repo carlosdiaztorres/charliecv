@@ -1,0 +1,6 @@
+<svg viewBox="0 0 170 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12 36L22 14H30L40 36H32L30 30H22L20 36H12ZM23 25H29L26 18L23 25Z" fill="currentColor"/>
+  <path d="M40 14H48L55 31L62 14H70L60 36H50L40 14Z" fill="currentColor"/>
+  <path d="M68 36L78 14H86L96 36H88L86 30H78L76 36H68ZM79 25H85L82 18L79 25Z" fill="currentColor"/>
+  <text x="98" y="36" fill="currentColor" font-family="'Outfit', sans-serif" font-weight="700" font-size="28" letter-spacing="1">tel</text>
+</svg>
