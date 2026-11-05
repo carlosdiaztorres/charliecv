@@ -1,5 +1,4 @@
-<svg viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M8 12h18v16H8z" stroke="currentColor" stroke-width="2" stroke-dasharray="2 2"/>
-  <text x="32" y="24" fill="currentColor" font-family="'Outfit', sans-serif" font-weight="700" font-size="16" letter-spacing="2">NOS</text>
+<svg viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6 10h24v30H6z" stroke="currentColor" stroke-width="3" stroke-dasharray="3 3"/>
+  <text x="40" y="34" fill="currentColor" font-family="'Outfit', sans-serif" font-weight="800" font-size="28" letter-spacing="3">NOS</text>
 </svg>
-

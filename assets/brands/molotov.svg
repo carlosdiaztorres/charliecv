@@ -1,6 +1,5 @@
-<svg viewBox="0 0 130 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="6" y="10" width="20" height="20" rx="6" fill="#FFCF00"/>
-  <path d="M11 16l5 8 5-8" stroke="#1A1D23" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="32" y="24" fill="currentColor" font-family="'Outfit', sans-serif" font-weight="700" font-size="14" letter-spacing="0.5">molotov.tv</text>
+<svg viewBox="0 0 190 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="6" y="8" width="34" height="34" rx="8" fill="currentColor"/>
+  <path d="M14 17l9 14 9-14" stroke="#1a1d23" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="48" y="34" fill="currentColor" font-family="'Outfit', sans-serif" font-weight="700" font-size="24" letter-spacing="0.5">molotov.tv</text>
 </svg>
-
