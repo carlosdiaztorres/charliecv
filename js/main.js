@@ -9,9 +9,10 @@
   const sectionNames = [
     'Introduction',
     'What I do',
+    'Ecosystem',
     'Career journey',
     'Beyond the day job',
-    'AI & Innovation',
+    'AI & Productivity',
     'Contact'
   ];
 
