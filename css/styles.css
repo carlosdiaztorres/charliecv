@@ -810,17 +810,17 @@ strong {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding: 1.5rem 0;
+  padding: 2.5rem 0;
   /* Fade out edges */
-  mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
 }
 
 .ecosystem__track {
   display: flex;
   width: max-content;
-  gap: 4rem;
-  animation: logoMarquee 28s linear infinite;
+  gap: 5.5rem;
+  animation: logoMarquee 32s linear infinite;
   align-items: center;
 }
 
@@ -833,7 +833,7 @@ strong {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-50% - 2rem));
+    transform: translateX(calc(-50% - 2.75rem));
   }
 }
 
@@ -842,44 +842,42 @@ strong {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  height: 70px;
-  min-width: 150px;
-  opacity: 0.6;
-  color: var(--text-secondary);
-  transition: opacity var(--transition), transform var(--transition), color var(--transition);
+  height: 90px;
+  min-width: 180px;
+  opacity: 0.85;
+  transition: opacity var(--transition), transform var(--transition);
 }
 
 .brand-item:hover {
   opacity: 1;
-  color: var(--text-primary);
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
 
 .brand-item img {
-  height: 44px;
+  height: 62px;
   width: auto;
-  max-width: 190px;
+  max-width: 250px;
   object-fit: contain;
-  filter: grayscale(100%) brightness(1.2);
-  transition: filter var(--transition);
-}
-
-.brand-item:hover img {
-  filter: grayscale(100%) brightness(2);
+  /* Crisp clean white monochrome */
+  filter: brightness(0) invert(1);
+  transition: opacity var(--transition), transform var(--transition);
 }
 
 @media (max-width: 768px) {
+  .ecosystem__carousel-wrapper {
+    padding: 1.5rem 0;
+  }
   .ecosystem__track {
-    gap: 2.5rem;
-    animation-duration: 20s;
+    gap: 3.5rem;
+    animation-duration: 22s;
   }
   .brand-item {
-    height: 55px;
-    min-width: 120px;
+    height: 65px;
+    min-width: 140px;
   }
   .brand-item img {
-    height: 34px;
-    max-width: 140px;
+    height: 44px;
+    max-width: 170px;
   }
 }
 
