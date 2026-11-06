@@ -102,8 +102,8 @@ strong {
 
 .slide__inner {
   width: 100%;
-  max-width: 1200px;
-  padding: 3rem 4rem;
+  max-width: 1600px;
+  padding: 3rem clamp(2rem, 5vw, 5rem);
   display: flex;
   gap: 4rem;
   align-items: center;
@@ -114,7 +114,7 @@ strong {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  max-width: 900px;
+  max-width: 1300px;
 }
 
 .slide__inner--center {
@@ -1411,7 +1411,7 @@ strong {
 
 @media (min-width: 1400px) {
   .slide__inner {
-    max-width: 1400px;
+    max-width: 1680px;
   }
 
   .hero__name {
