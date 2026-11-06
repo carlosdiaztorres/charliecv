@@ -873,7 +873,7 @@ strong {
   height: 92px;
   min-width: 195px;
   padding: 0.5rem 1.25rem;
-  opacity: 0.88;
+  opacity: 0.95;
   cursor: pointer;
   transition: opacity var(--transition), transform var(--transition);
 }
@@ -889,8 +889,6 @@ strong {
   width: auto;
   max-width: 255px;
   object-fit: contain;
-  /* Crisp clean white monochrome */
-  filter: brightness(0) invert(1);
   transition: opacity var(--transition), transform var(--transition);
 }
 
