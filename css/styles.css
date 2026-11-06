@@ -900,6 +900,12 @@ strong {
   transform: scale(1.15);
 }
 
+/* Orange and SIC are already native B&W / monochrome, do not invert */
+.brand-item img[src*="orange"],
+.brand-item img[src*="sic"] {
+  filter: none;
+}
+
 /* Tooltip on Hover */
 .brand-item::after {
   content: attr(data-tooltip);
